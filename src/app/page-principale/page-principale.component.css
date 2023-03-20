@@ -1,0 +1,50 @@
+element.style {
+}
+#header {
+  padding: 20px 0;
+}
+#header, #container, #footer {
+  display: block;
+  width: 960px;
+  margin: 0 auto;
+}
+.clear {
+  display: block;
+  clear: both;
+}
+address, article, aside, figcaption, figure, footer, header, nav, section {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+feuille de style de l’agent utilisateur
+header {
+  display: block;
+}
+div.wrapper {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+.row1, .row1 a {
+  color: #1c3e47;
+  background-color: #FFFFFF;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #919191;
+  background-color: #FFFFFF;
+}
+.clear:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+}

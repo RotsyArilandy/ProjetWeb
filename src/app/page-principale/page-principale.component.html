@@ -1,1 +1,236 @@
-<p>page-principale works!</p>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>3..2..1..Musique!</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/layout.css" type="text/css">
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1><a href="#">3..2..1..Musique!</a></h1>
+      <h2>Suivez le son</h2>
+    </div>
+
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Search:</legend>
+        <input type="text" value="Un artiste, un album, une musique&hellip;" onFocus="this.value=(this.value=='Un artiste, un album, une musique&hellip;')? '' : this.value ;">
+        <input type="submit" id="sf_submit" value="Recherche">
+      </fieldset>
+    </form>
+
+    <nav>
+      <ul>
+        <li><a href="#">ACCUEIL</a></li>
+        <li><a href="#">DECONNEXION</a></li>
+        <li><a href="#">PROFIL</a></li>
+        <li class="last"><a href="#">VOTRE MUSIQUE</a></li>
+
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- Slider -->
+    <section id="slider" class="clear">
+      <figure><img src="images/site/music.jpg" alt="">
+        <figcaption>
+          <h2>Du son ... à votre image</h2>
+          <p>Des milliers d'artistes, d'albums et de chansons, en illimité, sans pub.</p>
+          <footer class="more"><a href="#">En savoir plus &raquo;</a></footer>
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- main content -->
+    <div >
+      <section class="clear">
+        <!-- article 1 -->
+        <article class="one_quarter">
+          <h2>Vos coups de coeur</h2>
+          <p>Les dernières musiques que vous avez aimées</p>
+        </article>
+        <!-- article 2 -->
+        <article class="three_quarter lastbox">
+          <figure>
+            <ul class="clear">
+              <li class="first"><a href="#"><img src="images/albums/bowie1.jpg" width="130" height="130" alt=""></a>
+                <p>
+                  <a href="#">Space oddity</a><br>
+                  <a href="#">David Bowie</a><br>
+                  <a href="#">Space oddity</a>
+                </p>
+              </li>
+
+              <li><a href="#"><img src="images/albums/beatles7.jpg" width="130" height="130" alt=""></a>
+                <p>
+                  <a href="#">Come together</a><br>
+                  <a href="#">The Beatles</a><br>
+                  <a href="#">Abbey road</a>
+                </p>
+              </li>
+
+              <li><a href="#"><img src="images/albums/bowie4.jpg" width="130" height="130" alt=""></a>
+                <p>
+                  <a href="#">Starman </a><br>
+                  <a href="#">David Bowie</a><br>
+                  <a href="#">The Rise and Fall of Ziggy Stardust and the Spiders from Mars</a>
+                </p>
+              </li>
+
+              <li class="last"><a href="#"><img src="images/albums/rs1.jpeg" width="130" height="130" alt=""></a>
+                <p>
+                  <a href="#">Wild Horses</a><br>
+                  <a href="#">The Rolling Stones</a><br>
+                  <a href="#">Jump back the best <br> of </a>
+                </p>
+              </li>
+
+            </ul>
+            <figcaption><a href="#">En voir plus &raquo;</a></figcaption>
+          </figure>
+        </article>
+      </section>
+    </div>
+
+    <!--Vos artistes préférés-->
+    <div>
+      <section class="clear">
+        <!-- article 1 -->
+        <article class="three_quarter">
+          <figure>
+            <ul class="clear">
+              <li class="first"><a href="#"><img src="images/artists/bowie.jpeg" width="130" height="130" alt=""></a>
+                <p>
+                  <a href="#">David Bowie</a><br>pop,rock
+                </p>
+              </li>
+
+              <li><a href="#"><img src="images/artists/rs.jpeg" width="130" height="130" alt=""></a>
+                <p>
+                  <a href="#">The Rolling Stones</a><br>rock
+                </p>
+              </li>
+
+              <li><a href="#"><img src="images/artists/mayfield.jpeg" width="130" height="130" alt=""></a>
+                <p>
+                  <a href="#">Curtis Mayfiled</a><br>soul
+                </p>
+              </li>
+
+              <li class="last"><a href="#"><img src="images/artists/default.jpg" width="130" height="130" alt=""></a>
+                <p>
+                  Découverez d'autres <br> artistes
+                </p>
+              </li>
+            </ul>
+          </figure>
+        </article>
+
+        <!-- article 2 -->
+        <article class="one_quarter last">
+          <h2>Vos artistes préférées</h2>
+          <p>A écouter en boucle , quand vous<br> voulez, où vous voulez</p>
+        </article>
+
+        <figcaption><a href="#">En voir plus &raquo;</a></figcaption>
+      </section>
+    </div>
+
+    <!-- Coup de coeur de la semaine -->
+    <div id="part">
+      <section class="clear">
+        <!-- article 1 -->
+        <article class="one_quarter">
+          <h2>Vos coups de coeurs de <br> de la semaine</h2>
+          <p>Découvrez les titres les plus écoutés du moment</p>
+        </article>
+
+        <!-- article 2 -->
+        <article class="three_quarter lastbox">
+          <figure>
+            <ul class="clear">
+              <li class="first"><a href="#"><img src="images/albums/bowie4.jpg" width="130" height="130" alt=""></a>
+                <p>
+                  4 &#10084<br>
+                  <a href="#">Starman</a><br>
+                  <a href="#">David Bowie</a><br>
+                  <a href="#">The Rise and Fall of <br> Ziggy Stardust and the <br> Spiders from Mars</a>
+                </p>
+              </li>
+
+              <li><a href="#"><img src="images/albums/eminem1.jpeg" width="130" height="130" alt=""></a>
+                <p>
+                  3 &#10084<br>
+                  <a href="#">Dr.West</a><br>
+                  <a href="#">Eminem</a><br>
+                  <a href="#">Relapse 2009</a>
+                </p>
+              </li>
+
+              <li><a href="#"><img src="images/albums/rs4.jpg" width="130" height="130" alt=""></a>
+                <p>
+                  2 &#10084<br>
+                  <a href="#">(I Can't Get No) ><br> Satisfaction</a><br>
+                  <a href="#">The Rolling Stones</a><br>
+                  <a href="#">Big hits</a>
+                </p>
+              </li>
+
+              <li class="last"><a href="#"><img src="images/albums/rs2.jpg" width="130" height="130" alt=""></a>
+                <p>
+                  2 &#10084<br>
+                  <a href="#">Sympathy for the <br> Devil </a><br>
+                  <a href="#">The Rolling Stones</a><br>
+                  <a href="#">Beggars banquet </a>
+                </p>
+              </li>
+
+            </ul>
+            <figcaption><a href="#">En voir plus &raquo;</a></figcaption>
+          </figure>
+        </article>
+      </section>
+    </div>
+
+
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <div id="homepage" class="last clear">
+      <section class="one_quarter">
+        <h2 class="title">Accès rapide</h2>
+        <nav>
+          <ul>
+            <li><a href="#">Deconnexion</a></li>
+            <li><a href="#">Profil</a></li>
+            <li><a href="#">Nos offres</a></li>
+            <li><a href="#">Votre musique</a></li>
+            <li class="last"><a href="#">Rechercher</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section class="three_quarter lastbox">
+        <h2 class="title">Bienvenue HAUSDORFF HEATHKIT</h2>
+        <img class="imgl" src="images/users/av2.jpg" width="130" height="130" alt="">
+        <p>Ravis de vous revoir!<br>Votre abonnement prend fin le 2023-02-20<br> N'hésitez pas à aller consulter nos offres d'abonnement pour prolonger votre expérience!</p>
+        <p><a href="#">Voir votre profil</a></p>
+      </section>
+    </div>
+    <!-- / content body -->
+  </div>
+</div>
+<!-- Footer -->
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p class="fl_left">Copyright &copy; 2022 - <a href="#">L2 MIASHS</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+  </footer>
+</div>
+</body>
+</html>
